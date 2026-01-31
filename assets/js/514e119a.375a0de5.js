@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmy_website=globalThis.webpackChunkmy_website||[]).push([[84],{7322(i){i.exports=JSON.parse('{"authors":[{"name":"SimMind Team","title":"SimMind.ai","url":"https://simmind.ai","imageURL":"/simmind-docs/img/logo.png","key":"simmind","page":null,"count":1}]}')}}]);

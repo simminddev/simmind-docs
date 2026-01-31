@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmy_website=globalThis.webpackChunkmy_website||[]).push([[472],{5513(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Blog Coming Soon","permalink":"/simmind-docs/blog/coming-soon","unlisted":false,"date":"2026-01-30T00:00:00.000Z"}]}')}}]);

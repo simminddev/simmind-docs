@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmy_website=globalThis.webpackChunkmy_website||[]).push([[464],{656(n){n.exports=JSON.parse('{"tags":[{"label":"Announcement","permalink":"/simmind-docs/blog/tags/announcement","description":"SimMind announcements and updates","count":1}]}')}}]);
