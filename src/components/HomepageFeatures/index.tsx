@@ -5,45 +5,51 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  icon: string;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'From Feedback to Fix',
+    icon: '💬',
     description: (
       <>
-        SimMind is designed from the ground up to ...
+        Centralize player feedback from Discord, forms, and reviews. 
+        AI surfaces themes, quotes, and actionable insights—so you spend 
+        less time reading and more time fixing.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'See What Players Did',
+    icon: '🗺️',
     description: (
       <>
-        SimMind lets you ...
+        Connect the UE5 plugin to capture heatmaps and replay windows. 
+        Jump straight to the level and moment that needs work, with 
+        spatial context your team can inspect.
       </>
     ),
   },
   {
-    title: 'Powered by AI',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'AI-Powered Investigations',
+    icon: '🔍',
     description: (
       <>
-        Extend or customize ...
+        Ask any game dev question and get game-specific answers. 
+        Start an investigation to generate hypotheses, missing evidence, 
+        and a capture plan for your next playtest.
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, icon, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <span className={styles.featureIcon}>{icon}</span>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
