@@ -13,7 +13,17 @@ SimMind's UE5 plugin is built for fast playtest debugging. The Web Console flags
 - **Jump to the right spot** — open a finding and locate the level area + time window
 - **Save and share moments** — bookmarks you can reopen during fixing
 
-![Plugin demo](/img/ue5-video.png)
+<video
+  controls
+  playsInline
+  preload="metadata"
+  poster="/img/ue5-video.png"
+  style={{ width: '100%', maxWidth: 960, borderRadius: 12 }}
+>
+  <source src="/video/UE5demo.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
 
 
 ### Works with the Web Console
