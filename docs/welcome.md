@@ -10,7 +10,7 @@ Welcome to SimMind Docs!
 
 SimMind helps UE teams move faster from playtest feedback to the next build. It brings three things into one workflow:
 
-- A **game dev Copilot** for everyday gameplay / balance / level design questions
+- An expert-grade **game dev Copilot** for day-to-day gameplay, balance, and level design questions.
 - **Player feedback** collected from your existing channels (Discord, Google Forms, Steam reviews, in-game surveys, etc.)
 - **Gameplay evidence** (heatmaps / short replay windows) when you need proof and a reproducible case
 
