@@ -2,6 +2,8 @@
 sidebar_position: 3
 ---
 
+import videoSrc from '@site/static/video/UE5demo.mp4';
+
 # UE5 Plugin
 
 SimMind's UE5 plugin is built for fast playtest debugging. The Web Console flags what to look at; the plugin lets you open the exact location and time in Unreal Editor and inspect it with heatmaps and playback, so you can reproduce, verify, and fix without hunting.
@@ -18,10 +20,10 @@ SimMind's UE5 plugin is built for fast playtest debugging. The Web Console flags
     controls
     playsInline
     preload="metadata"
-    poster="/img/ue5-video.png"
+    poster={require('@site/static/img/ue5-video.png').default}
     style={{ display: 'block', width: '100%', maxWidth: 960, borderRadius: 12 }}
   >
-    <source src="/video/UE5demo.mp4" type="video/mp4" />
+    <source src={videoSrc} type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 </div>
